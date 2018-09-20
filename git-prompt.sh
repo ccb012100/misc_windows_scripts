@@ -14,6 +14,7 @@ then
 else
 	PS1='\[\033]0;$PWD\007\]' # set window title
 	PS1="$PS1"'\n'                 # new line
+	PS1="$PS1"'\e[38;5;218m' # change color to pink
 	PS1="$PS1"'\D{%I:%M:%S %p} '  # time in "hh:MM:SS AM/PM" format followed by a space
 	PS1="$PS1"'\[\033[32m\]'  # change to green
 	PS1="$PS1"'\u@\h '        # USER_NAME@HOST followed by space
