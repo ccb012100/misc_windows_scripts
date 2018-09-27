@@ -13,7 +13,7 @@ then
 	. ~/.config/git/git-prompt.sh
 else
 	PS1='\[\033]0;$PWD\007\]' # set window title
-	PS1="$PS1"'\[\033[32m\]'  # change to green
+	PS1="$PS1"'\[\033[34m\]'  # change to purple
 	PS1="$PS1"'\u@\h '        # USER_NAME@HOST followed by space
 	PS1="$PS1"'\[\033[33m\]'  # change to brownish yellow
 	PS1="$PS1"'\w'            # current working directory
