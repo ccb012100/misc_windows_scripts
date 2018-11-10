@@ -21,6 +21,8 @@
 	ch = checkout
 	check = checkout
 	co = commit
+	cm = commit -m
+	a = add
 [fetch]
 	prune = true
 [pull]
