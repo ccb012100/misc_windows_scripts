@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Console]
+;                    00BBGGRR, not RGB!
+"ColorTable00"=dword:00000000 ;  0 - black
+"ColorTable04"=dword:000000CD ;  1 - dark red
+"ColorTable02"=dword:0000CD00 ;  2 - dark green
+"ColorTable06"=dword:0000CDCD ;  3 - dark yellow
+"ColorTable01"=dword:00EE0000 ;  4 - dark blue
+"ColorTable05"=dword:00CD00CD ;  5 - dark magenta
+"ColorTable03"=dword:00CDCD00 ;  6 - dark cyan
+"ColorTable07"=dword:00E5E5E5 ;  7 - light gray
+"ColorTable08"=dword:007F7F7F ;  8 - dark gray
+"ColorTable12"=dword:000000FF ;  9 - red
+"ColorTable10"=dword:0000FF00 ; 10 - green
+"ColorTable14"=dword:0000FFFF ; 11 - yellow
+"ColorTable09"=dword:00FF5C5C ; 12 - blue
+"ColorTable13"=dword:00FF00FF ; 13 - magenta
+"ColorTable11"=dword:00FFFF00 ; 14 - cyan
+"ColorTable15"=dword:00ffffff ; 15 - white
