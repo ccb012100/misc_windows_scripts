@@ -1,0 +1,59 @@
+[core]
+        autocrlf = true
+        editor = 'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+        pager = diff-so-fancy | less --tabs=4 -RFX
+[credential]
+        helper = manager
+[user]
+        name = Christopher Bocardo
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
+        grep = auto
+        ui = true
+[alias]
+        l = log --all --decorate --oneline --graph -n 25
+        st = status
+        stat = status
+        br = branch
+        ch = checkout
+        check = checkout
+        checkoug = checkout
+        co = commit
+        cm = commit -m
+        a = add
+[fetch]
+        prune = true
+[pull]
+        rebase = true
+[color "diff-highlight"]
+        oldNormal = red bold
+        oldHighlight = red bold 52
+        newNormal = green bold
+        newHighlight = green bold 22
+[color "diff"]
+        meta = yellow
+        frag = magenta bold
+        commit = yellow bold
+        old = red bold
+        new = green bold
+        whitespace = red reverse
+[color "status"]
+        added = cyan
+        branch = cyan
+        changed = magenta
+        deleted = red
+        untracked = yellow
+[color "branch"]
+        current = cyan
+        local = green
+        remote = red
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
+[rebase]
+        autoStash = false
