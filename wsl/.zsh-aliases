@@ -1,0 +1,24 @@
+# zsh aliases
+
+# ls
+alias l='ls'
+alias la='ls -a'
+alias ll='ls -l'
+alias lal='ls -al'
+alias lla='ls -la'
+
+alias cls='clear'           # clear screen
+alias jq='jq -C'            # colorize json
+alias hist='history -25'    # show last 25 entries only
+alias pshell='pwsh'
+alias powershell='pwsh'
+alias g='git'
+
+# use Neovim instad of Vim
+alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
+alias vimdiff='nvim -d'
+
+# emacs
+alias e='emacs'
