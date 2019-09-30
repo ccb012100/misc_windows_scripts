@@ -3,7 +3,7 @@
 
 LS_COLORS="ow=01;36;40" && export LS_COLORS
 
-export PATH=~/tools:$PATH
+export PATH=~/tools/diff-so-fancy:$PATH
 export EDITOR="nvim"                     # $EDITOR opens in terminal
 export VISUAL="nvim"                     # $VISUAL opens in GUI mode
 export DEFAULT_USER=cbocardo
