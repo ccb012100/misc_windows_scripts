@@ -1,27 +1,27 @@
 [core]
-	pager = diff-so-fancy | less --tabs=4 -RFX
+    pager = diff-so-fancy | less --tabs=4 -RFX
     editor = emacs
 [user]
-	name = Christopher Bocardo
+    name = Christopher Bocardo
 [color]
-	ui = true
+    ui = true
 [color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
+    oldNormal = red bold
+    oldHighlight = red bold 52
+    newNormal = green bold
+    newHighlight = green bold 22
 [color "diff"]
-	meta = yellow
-	frag = magenta bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
+    meta = yellow
+    frag = magenta bold
+    commit = yellow bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
 [pull]
-	rebase = true
+    rebase = true
 [alias]
-	cm = commit -m
-	amend = commit -a --amend
+    cm = commit -m
+    amend = commit -a --amend
     # resets the previous commit, but keeps all the changes
     # from that commit in the working directory
     undo = reset HEAD~1 --mixed
